@@ -1,0 +1,64 @@
+
+.main{
+    display: grid;
+    gap: 5px;
+    grid-template-columns: 30% 70%;
+    grid-template-rows: 100%;
+    background-color: aqua;
+    line-height: 25px;
+}
+.datospersonales{
+    background-color: rgb(79, 158, 231);
+    border: 2px solid darkblue;
+    display: flex;
+    flex-direction: column;
+    
+    /* width: 200px;
+    margin: 10%;
+    padding: 10%; */
+}
+.foto{
+    /* padding-top: 10%;
+    padding-left: 35%; */
+    width: 150px;
+    height: 180px;
+    border-radius: 50%;
+    margin: auto;
+    margin-top: 30px;
+
+}
+.contacto{
+    text-align: center;
+}
+.perfil, .habilidades{
+    text-align: justify;
+    margin: 5%;
+}
+
+.experiencia{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    background-color: rgb(21, 187, 145);
+    border: 2px solid darkblue;
+    
+    /* width: 200px;
+    margin: 10%;
+    padding: 10%; */
+}
+.nombre{
+    text-align: center;
+    color: cornsilk;
+}
+.laboral{
+    text-align: justify;
+    margin: 5%;
+}
+h3, h1{
+    color: aliceblue;
+}
+p{
+    font-size: 20px;
+    line-height: 30px;
+}
+
+
+
